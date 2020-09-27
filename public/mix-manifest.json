@@ -1,4 +1,7 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/style.css": "/css/style.css"
+    "/css/style.css": "/css/style.css",
+    "/css/uikit.min.css": "/css/uikit.min.css",
+    "/js/uikit.min.js": "/js/uikit.min.js",
+    "/js/uikit-icons.min.js": "/js/uikit-icons.min.js"
 }
