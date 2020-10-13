@@ -11,8 +11,12 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
+mix.scripts('resources/js/app.js', 'public/js/app.js')
     .sass('resources/scss/style.scss', 'public/css');
+
+// mix.copyDirectory('resources/images', 'public/images');
+mix.copyDirectory('resources/icons', 'public/icons')
+    .copyDirectory('resources/fonts', 'public/fonts');
 
 // lib Uikit
 mix.copy('node_modules/uikit/dist/css/uikit.min.css','public/css/uikit.min.css')

@@ -1,0 +1,12 @@
+@use 'variables';
+
+#ty-footer {
+    background: variables.$azul;
+    color: variables.$branco;
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}

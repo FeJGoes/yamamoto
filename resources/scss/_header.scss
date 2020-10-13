@@ -1,0 +1,107 @@
+@use 'variables';
+
+#ty-header {
+    background: variables.$branco;
+    color: variables.$azul;
+    width: 100%;
+    // position: absolute;
+    // top: 0;
+    // z-index: 10;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 .3px 5px variables.$texto-muted;
+
+    &.inicial-top {
+        background: rgba($color: #000000, $alpha: 0);
+        box-shadow: none;
+    }
+
+    #ty-logo {
+        width: 100px;
+        margin: 5px 25px;
+    }
+
+    nav {
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-end;
+
+            li {
+                text-align: center;
+                margin: 0 5px;
+                position: relative;
+
+                a {
+                    text-decoration: none;
+                    font-weight: lighter;
+                    font-size: 1.2em;
+                    color: variables.$azul;
+
+                    &:hover {
+                        color: variables.$amarelo;
+                        // border-bottom: 2px solid variables.$verde;
+                    }
+                }
+
+                ::after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    margin: 0 auto;
+                    width: 20px;
+                    height: 1px;
+                    background: variables.$amarelo;
+                }
+            }
+
+        }
+
+
+    }
+}
+
+/**
+ *
+ *
+ */
+.burger {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.burger span {
+    width: 100%;
+    height: 4.5px;
+    background-color: variables.$texto-secundario-escuro;
+    transition: all 0.25s;
+}
+
+.burger.activated span {
+    background-color: variables.$texto-muted;
+}
+
+.burger.two.activated span:nth-child(1) {
+    transform: translateY(12px) rotate(45deg);
+}
+
+.burger.two.activated span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.two.activated span:nth-child(3) {
+    transform: translateY(-15px) rotate(-45deg);
+}

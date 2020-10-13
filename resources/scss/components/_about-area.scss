@@ -1,0 +1,118 @@
+@use '../variables' as var;
+/**
+ *  váriaveis locais
+ */
+$boxLeftTextColor: var.$tcW;
+$boxLeftBackgoundColor: var.$c1;
+
+$boxTitleColor: var.$tc3;
+$boxTextColor: var.$tc3;
+$boxTitleLineColor: linear-gradient(to left, var.$c1, var.$c2);
+
+
+#ty-about-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ty-about-box-left {
+    margin: 15px 20px;
+    width: 40%;
+    min-width: 300px;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /** medium - breakpoint */
+    @media screen and (max-width: 950px) {
+        width: 80%;
+    }
+
+    figure {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+        /** small - breakpoint */
+        @media screen and (max-width: 500px) {
+            width: 95%;
+            height: 95%;
+            padding: 0;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            min-width: 250px;
+            min-height: 350px;
+            object-fit: cover;
+            object-position: center 30%;
+            border-radius: 2px;
+        }
+    }
+
+    .ty-left-box-text{
+        width: 250px;
+        height: 100px;
+        padding: 5px;
+        position: absolute;
+        bottom: -15px;
+        right: -15px;
+        color: $boxLeftTextColor;
+        background-color: $boxLeftBackgoundColor;
+        border-radius: 2px;
+        text-align: center;
+        font-size: 1.35em;
+
+        /** small - breakpoint */
+        @media screen and (max-width: 500px) {
+            width: 90%;
+            height: 50px;
+            padding: 5px 2px;
+            bottom: 0;
+            right: 0;
+            font-size: 1em;
+        }
+    }
+}
+
+.ty-about-box-right {
+    width: 500px;
+    min-width: 300px;
+    margin: 5px 25px;
+
+    /** medium - breakpoint */
+    @media screen and (max-width: 950px) {
+        width: 80%;
+        text-align: center;
+    }
+
+    h2 {
+        color: $boxTitleColor;
+        margin-top: 10px;
+    }
+
+    h2::before {
+        content: '';
+        width: 150px;
+        height: 4px;
+        display: block;
+        background: $boxTitleLineColor;
+        margin: 10px 0;
+
+        /** medium - breakpoint */
+        @media screen and (max-width: 950px) {
+            margin: 10px auto;
+        }
+    }
+
+    p {
+        text-indent: 25px;
+        color: $boxTextColor;
+        font-size: .95em;
+    }
+}

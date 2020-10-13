@@ -4,7 +4,7 @@
     <meta name="author" content="Thiago Yamamoto">
     <meta name="description" content="">
     <meta name="generator" content="by @FeJGoes">
-    <meta name="theme-color" content="#7952b3">
+    <meta name="theme-color" content="#000">
 
     <link rel="stylesheet" href="{{asset('css/uikit.min.css')}}" />
     <script src="{{asset('js/uikit.min.js')}}"></script>
