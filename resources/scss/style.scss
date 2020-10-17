@@ -15,6 +15,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -41,4 +44,5 @@
 @import 'components/three-boxes-area',
         'components/about-area',
         'components/faq-area',
+        'components/timeline-area',
         'components/cards-area';

@@ -10,7 +10,7 @@
     <script src="{{asset('js/uikit.min.js')}}"></script>
     <script src="{{asset('js/uikit-icons.min.js')}}"></script>
 
-    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{mix('css/style.css')}}" rel="stylesheet">
     @stack('styles')
 
     <title>@yield('title')</title>

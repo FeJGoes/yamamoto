@@ -1,12 +1,20 @@
-@use 'variables';
+@use './variables' as var;
 
 #ty-footer {
-    background: variables.$azul;
-    color: variables.$branco;
+    background: var.$c1;
+    color: var.$cW;
     width: 100%;
     min-height: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+
+    img {
+        width: 100px;
+    }
+
+    p {
+        font-size: .85em;
+    }
 }

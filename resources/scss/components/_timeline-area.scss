@@ -1,0 +1,33 @@
+@use './variables' as var;
+
+
+#ty-timeline-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: min-content;
+}
+
+.ty-timeline-nav {
+    width: 200px;
+    height: 600px;
+    text-align: center;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+.ty-timeline-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
