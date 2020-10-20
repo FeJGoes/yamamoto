@@ -63,6 +63,8 @@ $urlIcon3Hover: '/icons/paper-plane-1-white.svg';
 
 .ty-bp {
     border-radius: 2px;
+    width: 95px;
+    margin: 2.5px auto;
 
      &:hover {
         color: $bpTextColorHover !important;

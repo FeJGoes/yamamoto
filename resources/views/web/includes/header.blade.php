@@ -38,6 +38,12 @@
         </ul>
     </nav>
 
+    <div id="ty-social-media" class="uk-visible@m">
+        <a class="ty-tc1" href="https://www.facebook.com/vereadorthiagoyamamoto/" target="_blank" uk-icon="icon: facebook; ratio: 1.5"></a>
+        <a class="ty-tc1" href="https://www.instagram.com/vereadorthiagoyamamoto/?igshid=ogh1v0pt2yw3" target="_blank" uk-icon="icon: instagram; ratio: 1.5"></a>
+        <a class="ty-tc1" href="https://www.youtube.com/channel/UCSku-XFs_VomTllqtluNCJg" target="_blank" uk-icon="icon: youtube; ratio: 1.5"></a>
+    </div>
+
     <span id="ty-burger-menu" class="burger two uk-hidden@m" uk-toggle="cls: activated">
         <span></span>
         <span></span>
