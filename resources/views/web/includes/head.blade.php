@@ -6,12 +6,11 @@
     <meta name="generator" content="by @FeJGoes">
     <meta name="theme-color" content="#000">
 
-    <link rel="stylesheet" href="{{asset('css/uikit.min.css')}}" />
-    <script src="{{asset('js/uikit.min.js')}}"></script>
-    <script src="{{asset('js/uikit-icons.min.js')}}"></script>
-
-    <link href="{{mix('css/style.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="{{mix('css/uikit.min.css')}}">
+    <link rel="stylesheet" href="{{mix('css/style.css')}}">
     @stack('styles')
 
+    <script src="{{mix('js/uikit.min.js')}}"></script>
+    <script src="{{mix('js/uikit-icons.min.js')}}"></script>
     <title>@yield('title')</title>
 </head>

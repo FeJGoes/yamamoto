@@ -51,6 +51,28 @@ html {
     background-color: var.$c1;
 }
 
+.ty-between-section-title {
+    margin: 75px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    :nth-child(n) {
+        margin: 0;
+    }
+
+    :nth-child(2)::before {
+        content: '';
+        width: 150px;
+        height: 4px;
+        display: block;
+        background: linear-gradient(to left, var.$c1, var.$c2);
+        margin: 5px auto;
+    }
+}
+
 @import 'header','footer','biografia';
 
 @import 'components/three-boxes-area',

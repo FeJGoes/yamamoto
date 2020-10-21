@@ -11,7 +11,7 @@
                 </a>
             </li>
             <li class="ty-nav-item">
-                <a href="{{route('biografia')}}">
+                <a href="#ty-about-container">
                     <small>Biografia</small>
                 </a>
             </li>
@@ -26,7 +26,7 @@
                 </a>
             </li>
             <li class="ty-nav-item">
-                <a href="">
+                <a href="#ty-cards-area">
                     <small>Videos</small>
                 </a>
             </li>
