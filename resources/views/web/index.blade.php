@@ -3,12 +3,12 @@
     @include('web.includes.head')
 
     <body>
-        {{-- @include('web.includes.header') --}}
+        @include('web.includes.header')
 
         @yield('content')
 
-        {{-- @include('web.includes.footer')
-        @stack('scripts') --}}
+        @include('web.includes.footer')
+        @stack('scripts')
     </body>
 </html>
 

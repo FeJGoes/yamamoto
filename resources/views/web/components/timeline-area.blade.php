@@ -1,8 +1,8 @@
 <section id="ty-timeline-area">
     <ul class="uk-nav uk-nav-default ty-timeline-nav" uk-switcher="connect: .switcher-container">
-        <li><a href="#">Active</a></li>
-        <li><a href="#">Item</a></li>
-        <li><a href="#">Item</a></li>
+        <li><a href="#">2020</a></li>
+        <li><a href="#">2019</a></li>
+        <li><a href="#">2018</a></li>
     </ul>
 
     <ul class="uk-switcher switcher-container ty-timeline-box">

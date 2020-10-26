@@ -4,7 +4,7 @@
 
 @section('content')
 
-    {{-- @include('web.components.slideshow')
+    @include('web.components.slideshow')
 
     <div class="ty-between-section-title">
         <h6>Novos caminhos</h6>
@@ -30,10 +30,10 @@
     </div>
     @include('web.components.cards-area')
 
-    <div class="ty-between-section-title">
+    {{-- <div class="ty-between-section-title">
         <h6>Tragetória</h6>
         <h3>O caminho trilhado</h3>
-    </div> --}}
-    @include('web.components.timeline-area')
+    </div>
+    @include('web.components.timeline-area') --}}
 
 @endsection

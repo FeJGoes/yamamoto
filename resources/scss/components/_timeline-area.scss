@@ -2,28 +2,56 @@
 
 
 #ty-timeline-area {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	position: relative;
-	height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: min-content;
 }
 
 .ty-timeline-nav {
-	width: 200px;
-	height: 600px;
+    width: 200px;
+    height: 600px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    border-right: solid;
+    justify-content: center;
     align-items: center;
+
+    li {
+        width: 100px;
+        margin: 25px;
+        font-size: 1.15em;
+        border-bottom: solid .5px var.$cW;
+        border-radius: 2.5px;
+
+        &.uk-active {
+            border-bottom: solid .5px var.$c2;
+
+            a {
+                color: var.$c2;
+            }
+        }
+
+        &:hover {
+            border-bottom: solid .5px var.$c5;
+        }
+
+        a {
+            color: var.$cW;
+
+            &:hover {
+                color: var.$c5;
+            }
+        }
+
+    }
 
 }
 
 .ty-timeline-box {
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
 
     li {
@@ -47,6 +75,7 @@
         object-fit: cover;
         object-position: center center;
         position: absolute;
+        filter: brightness(50%);
 
     }
 
