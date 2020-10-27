@@ -14,11 +14,14 @@ const mix = require('laravel-mix');
 mix.scripts('resources/js/app.js', 'public/js/app.js').version()
     .sass('resources/scss/style.scss', 'public/css').version();
 
-mix.copyDirectory('resources/images', 'public/images');
-mix.copyDirectory('resources/icons', 'public/icons')
+mix.copyDirectory('resources/images', 'public/images')
+    .copyDirectory('resources/archive', 'public/archive')
+    .copyDirectory('resources/icons', 'public/icons')
     .copyDirectory('resources/fonts', 'public/fonts');
 
 // lib Uikit
 mix.copy('node_modules/uikit/dist/css/uikit.min.css','public/css/uikit.min.css')
-    .copy('node_modules/uikit/dist/js/uikit.min.js', 'public/js/uikit.min.js')
-    .copy('node_modules/uikit/dist/js/uikit-icons.min.js', 'public/js/uikit-icons.min.js');
+    .scripts([
+        'node_modules/uikit/dist/js/uikit.min.js',
+        'node_modules/uikit/dist/js/uikit-icons.min.js'
+    ], 'public/js/uikit.min.js')

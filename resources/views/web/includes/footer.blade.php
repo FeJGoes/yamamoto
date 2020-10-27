@@ -11,8 +11,8 @@
 
         <div class="uk-width-1-4@m ty-resume">
             <h4 class="ty-tc3">Resumo do mandato</h4>
-            <a href="{{Storage::url('resumo-mandato.pdf')}}" target="_blank" download>
-                <img src="{{asset('images/cartilha.png')}}" alt="cartilha">
+            <a href="{{asset('archive/resumo-mandato.pdf')}}" target="_blank" download>
+                <img src="{{asset('images/cartilha.webp')}}" alt="cartilha">
             </a>
         </div>
 

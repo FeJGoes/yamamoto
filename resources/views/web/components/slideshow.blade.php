@@ -3,21 +3,21 @@
 
         <ul class="uk-slideshow-items">
             <li>
-                <img src="{{asset('images/IMG_1374.jpg')}}" alt="" uk-cover>
+                <img src="{{asset('images/IMG_1374.webp')}}" alt="" uk-cover>
                 <div class="uk-position-center uk-position-small uk-text-center">
                     <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">Heading</h2>
                     <p uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">Lorem ipsum dolor sit amet.</p>
                 </div>
             </li>
             <li>
-                <img src="{{asset('images/IMG_2222.jpeg')}}" alt="" uk-cover>
+                <img src="{{asset('images/IMG_2222.webp')}}" alt="" uk-cover>
                 <div class="uk-position-center uk-position-small uk-text-center">
                     <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">Heading</h2>
                     <p uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">Lorem ipsum dolor sit amet.</p>
                 </div>
             </li>
             <li>
-                <img src="{{asset('images/IMG_1273.jpg')}}" alt="" uk-cover>
+                <img src="{{asset('images/IMG_1273.webp')}}" alt="" uk-cover>
                 <div class="uk-position-center uk-position-small uk-text-center">
                     <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">Heading</h2>
                     <p uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">Lorem ipsum dolor sit amet.</p>

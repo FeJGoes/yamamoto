@@ -1,6 +1,6 @@
-<header id="ty-header">
+<header id="ty-header" uk-sticky="show-on-up: true">
     <a id="ty-logo" href="{{route('home')}}">
-        <img src="{{asset('images/logo.jpeg')}}" alt="logo">
+        <img src="{{asset('images/logo.webp')}}" alt="logo">
     </a>
 
     <nav id="ty-navbar" class="uk-visible@m">
@@ -44,9 +44,11 @@
         <a class="ty-tc1" href="https://www.youtube.com/channel/UCSku-XFs_VomTllqtluNCJg" target="_blank" uk-icon="icon: youtube; ratio: 1.5"></a>
     </div>
 
-    <span id="ty-burger-menu" class="burger two uk-hidden@m" uk-toggle="cls: activated">
+    <a href="#offcanvas" id="ty-burger-menu" class="burger two uk-hidden@m" uk-toggle="cls: activated">
         <span></span>
         <span></span>
         <span></span>
-    </span>
+    </a>
+
+    @include('web.includes.offcanvas')
 </header>

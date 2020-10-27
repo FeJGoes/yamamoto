@@ -11,6 +11,5 @@
     @stack('styles')
 
     <script src="{{mix('js/uikit.min.js')}}"></script>
-    <script src="{{mix('js/uikit-icons.min.js')}}"></script>
     <title>@yield('title')</title>
 </head>
