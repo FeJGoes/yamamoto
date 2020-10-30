@@ -7,20 +7,26 @@
     @include('web.components.slideshow')
 
     <div class="ty-between-section-title">
-        <h6>Novos caminhos</h6>
-        <h3>#RespeitoPorVocê</h3>
-    </div>
-    @include('web.components.three-boxes-area')
-
-    <div class="ty-between-section-title">
-        <h6>Breve biografia</h6>
-        <h3>Sobre mim</h3>
+        <h6>Sobre mim</h6>
+        <h3>Breve biografia</h3>
     </div>
     @include('web.components.about-area')
 
     <div class="ty-between-section-title">
+        <h6>Sobre mim</h6>
+        <h3>Minha história contada por outras pessoas</h3>
+    </div>
+    @include('web.components.slider-area')
+
+    <div class="ty-between-section-title">
+        <h6>#RespeitoPorVocê</h6>
+        <h3>O que defendo</h3>
+    </div>
+    @include('web.components.three-boxes-area')
+
+    <div class="ty-between-section-title">
         <h6>Entenda mais</h6>
-        <h3>Os 3 Poderes</h3>
+        <h3>Dinâmica política</h3>
     </div>
     @include('web.components.faq-area')
 
@@ -30,10 +36,12 @@
     </div>
     @include('web.components.cards-area')
 
-    {{-- <div class="ty-between-section-title">
+    <div class="ty-between-section-title">
         <h6>Tragetória</h6>
         <h3>O caminho trilhado</h3>
     </div>
-    @include('web.components.timeline-area') --}}
+    {{-- @include('web.components.timeline-area') --}}
+
+    @include('web.components.articles-modals')
 
 @endsection

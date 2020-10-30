@@ -21,22 +21,22 @@
             <div class="uk-flex uk-flex-column uk-flex-left uk-flex-center">
                 <a href="https://www.facebook.com/vereadorthiagoyamamoto/" target="_blank">
                     <span uk-icon="icon: facebook; ratio: 1.5"></span>
-                    facebook : @vereadorthiagoyamamoto
+                    vereadorthiagoyamamoto
                 </a>
                 <a href="https://www.instagram.com/vereadorthiagoyamamoto/?igshid=ogh1v0pt2yw3" target="_blank">
                     <span uk-icon="icon: instagram; ratio: 1.5"></span>
-                    instagram : @vereadorthiagoyamamoto
+                    vereadorthiagoyamamoto
                 </a>
                 <a href="https://www.youtube.com/channel/UCSku-XFs_VomTllqtluNCJg" target="_blank" >
                     <span uk-icon="icon: youtube; ratio: 1.5"></span>
-                    youtube: Thiago Yamamoto
+                    vereadorthiagoyamamoto
                 </a>
             </div>
             <h4 class="ty-tc3">Contato</h4>
             <div class="uk-flex uk-flex-column uk-flex-left uk-flex-center">
                 <a href="mailto:thiago.yamamoto.rc@gmail.com" target="_blank" >
                     <span uk-icon="icon: mail; ratio: 1.5"></span>
-                    e-mail: thiago.yamamoto.rc@gmail.com
+                    e-mail: vereadorthiagoyamamoto@gmail.com
                 </a>
 
                 <a href="#">

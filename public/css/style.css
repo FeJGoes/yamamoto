@@ -32,7 +32,7 @@ html {
 }
 
 .ty-tc1 {
-  color: #264e86;
+  color: #0e1c70;
 }
 
 .ty-tc2 {
@@ -50,7 +50,7 @@ html {
  */
 
 .ty-bg-primary {
-  background-color: #264e86;
+  background-color: #0e1c70;
 }
 
 .ty-between-section-title {
@@ -71,7 +71,7 @@ html {
   width: 150px;
   height: 4px;
   display: block;
-  background: linear-gradient(to left, #264e86, #0074e4);
+  background: linear-gradient(to left, #ffb200, #3bff00);
   margin: 5px auto;
 }
 
@@ -91,7 +91,11 @@ html {
 
 #ty-header #ty-logo {
   width: 100px;
+  height: 100px;
   margin: 5px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #ty-header nav > ul {
@@ -118,14 +122,14 @@ html {
   width: 20px;
   height: 0.8px;
   border-radius: 2px;
-  background: linear-gradient(to left, #264e86, #0074e4);
+  background: linear-gradient(to left, #0e1c70, #0074e4);
 }
 
 #ty-header nav > ul li a {
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2em;
-  color: #264e86;
+  color: #0e1c70;
 }
 
 #ty-header nav > ul li a:hover {
@@ -140,7 +144,7 @@ html {
   margin: 0 auto;
   width: 20px;
   height: 0.8px;
-  background: linear-gradient(to left, #264e86, #0074e4);
+  background: linear-gradient(to left, #0e1c70, #0074e4);
 }
 
 #ty-social-media {
@@ -173,7 +177,7 @@ html {
 .burger span {
   width: 100%;
   height: 3px;
-  background-color: #264e86;
+  background-color: #0e1c70;
   transition: all 0.25s;
 }
 
@@ -194,7 +198,7 @@ html {
 }
 
 #ty-footer {
-  background: #264e86;
+  background: #0e1c70;
   color: #ffffff;
   width: 100%;
   min-height: 40px;
@@ -349,7 +353,7 @@ html {
   background-color: #ffffff;
   width: 300px;
   min-width: 290px;
-  height: 250px;
+  min-height: 300px;
   margin: 10px 15px;
   box-shadow: 0 4px 10px -5px #6c757d;
   text-align: center;
@@ -358,8 +362,12 @@ html {
   /** small - breakpoint */
 }
 
+.ty-box-item .ty-box-text {
+  height: 130px;
+}
+
 .ty-box-item:hover {
-  background-color: #264e86;
+  background-color: #0e1c70;
   transform: translateY(-10px);
 }
 
@@ -466,7 +474,7 @@ html {
   bottom: -15px;
   right: -15px;
   color: #ffffff;
-  background-color: #264e86;
+  background-color: #0e1c70;
   border-radius: 2px;
   text-align: center;
   font-size: 1.35em;
@@ -508,7 +516,7 @@ html {
   width: 150px;
   height: 4px;
   display: block;
-  background: linear-gradient(to left, #264e86, #0074e4);
+  background: linear-gradient(to left, #0e1c70, #0074e4);
   margin: 10px 0;
   /** medium - breakpoint */
 }
@@ -592,7 +600,7 @@ html {
   width: 150px;
   height: 4px;
   display: block;
-  background: linear-gradient(to left, #264e86, #0074e4);
+  background: linear-gradient(to left, #0e1c70, #0074e4);
   margin: 10px auto;
   /** medium - breakpoint */
 }
@@ -795,7 +803,7 @@ html {
   width: 150px;
   height: 2px;
   display: block;
-  background: linear-gradient(to left, #264e86, #0074e4);
+  background: linear-gradient(to left, #0e1c70, #0074e4);
   margin: 10px auto;
 }
 

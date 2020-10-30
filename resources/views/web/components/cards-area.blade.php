@@ -2,7 +2,7 @@
 
     <div class="uk-card uk-card-default ty-card">
         <div class="uk-card-body">
-            <a href="#" target="_blank">
+            <a href="https://www.youtube.com/watch?v=1ceGbFFBX1k" target="_blank">
                 <img src="{{asset('images/IMG_1269.webp')}}" alt="thumbnail">
             </a>
             <h3>Titulo muito bom</h3>

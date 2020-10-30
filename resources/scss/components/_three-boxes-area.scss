@@ -75,11 +75,15 @@ $urlIcon3Hover: '/icons/paper-plane-1-white.svg';
     background-color: $itemBackgoundColor;
     width: 300px;
     min-width: 290px;
-    height: 250px;
+    min-height: 300px;
     margin: 10px 15px;
     box-shadow: 0 4px 10px -5px $itemBorderColor;
     text-align: center;
     transition: 0.8s;
+
+    .ty-box-text {
+        height: 130px;
+    }
 
     &:hover {
         background-color: $itemBackgoundColorHover;

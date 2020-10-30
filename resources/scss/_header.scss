@@ -17,7 +17,11 @@ $afterLineColor: linear-gradient(to left, var.$c1, var.$c2);
 
     #ty-logo {
         width: 100px;
+        height: 100px;
         margin: 5px 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     nav > ul {

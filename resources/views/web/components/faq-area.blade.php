@@ -1,24 +1,54 @@
 <section id="ty-faq-area">
     <div class="ty-accordion-faq">
-        <h4>Entenda mais</h4>
-        <h2>Sobre o papel do vereador</h2>
-        <ul uk-accordion >
-            <li class="uk-open">
-                <a class="uk-accordion-title" href="#">Item 1</a>
+        <h4>Entenda mais </h4>
+        <h2>
+            Os 3 poderes
+            <a href="#modal-valores" uk-tooltip="title: Clique para ver o artigo" uk-icon="info" uk-toggle></a>
+        </h2>
+        <ul uk-accordion>
+            <li>
+                <a class="uk-accordion-title" href="#">EXECUTIVO</a>
                 <div class="uk-accordion-content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <dl>
+                        <dt>O que faz?</dt>
+                        <dd>Dirige e administra o governo e  representa o país no exterior. É quem toma as decisões sobre economia, investimentos, contrução e conservação de escolas, hospitais, estradas, etc.</dd>
+                        <dt>Quem exerce?</dt>
+                        <dd>
+                            <ul>
+                                <li>Presidente da República;</li>
+                                <li>Governador do Estado;</li>
+                                <li>Prefeito;</li>
+                            </ul>
+                        </dd>
+                    </dl>
                 </div>
             </li>
             <li>
-                <a class="uk-accordion-title" href="#">Item 2</a>
+                <a class="uk-accordion-title" href="#">LEGISLATIVO</a>
                 <div class="uk-accordion-content">
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                    <dl>
+                        <dt>O que faz?</dt>
+                        <dd>Vota as leis em nome da população e fiscaliza atos do Executivo.</dd>
+                        <dt>Quem exerce?</dt>
+                        <dd>
+                            <ul>
+                                <li>Nacionalmente: Senadores e Deputados federais;</li>
+                                <li>Nos estados Deputados estaduais;</li>
+                                <li>Nos municípios: são os vereadores.</li>
+                            </ul>
+                        </dd>
+                    </dl>
                 </div>
             </li>
             <li>
-                <a class="uk-accordion-title" href="#">Item 3</a>
+                <a class="uk-accordion-title" href="#">JUDICIÁRIO</a>
                 <div class="uk-accordion-content">
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                    <dl>
+                        <dt>O que faz?</dt>
+                        <dd>Aplica as leis, decidindo conflitos dos cidadãos e o Estado. São considerados os guardiões da Constituição.</dd>
+                        <dt>Quem exerce?</dt>
+                        <dd>Os Juízes nas diversas instâncias e âmbitos da Justiça.</dd>
+                    </dl>
                 </div>
             </li>
         </ul>

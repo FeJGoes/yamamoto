@@ -22,7 +22,17 @@
             </li>
             <li class="ty-nav-item">
                 <a href="">
+                    <small>Entenda mais</small>
+                </a>
+            </li>
+            <li class="ty-nav-item">
+                <a href="">
                     <small>Atividade Parlamentar</small>
+                </a>
+            </li>
+            <li class="ty-nav-item">
+                <a href="#ty-cards-area">
+                    <small>Projetos</small>
                 </a>
             </li>
             <li class="ty-nav-item">
@@ -42,6 +52,7 @@
         <a class="ty-tc1" href="https://www.facebook.com/vereadorthiagoyamamoto/" target="_blank" uk-icon="icon: facebook; ratio: 1.5"></a>
         <a class="ty-tc1" href="https://www.instagram.com/vereadorthiagoyamamoto/?igshid=ogh1v0pt2yw3" target="_blank" uk-icon="icon: instagram; ratio: 1.5"></a>
         <a class="ty-tc1" href="https://www.youtube.com/channel/UCSku-XFs_VomTllqtluNCJg" target="_blank" uk-icon="icon: youtube; ratio: 1.5"></a>
+        <a class="ty-tc1" href="#modal-articles-list" uk-icon="icon: info; ratio: 1.5" uk-tooltip="title: Artigos; pos: bottom" uk-toggle></a>
     </div>
 
     <a href="#offcanvas" id="ty-burger-menu" class="burger two uk-hidden@m" uk-toggle="cls: activated">
