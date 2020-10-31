@@ -2,7 +2,6 @@
     <div class="ty-about-box-left">
         <figure>
             <img src="{{asset('images/DSC_0094.webp')}}" alt="thiago_yamamoto">
-            {{-- <span class="ty-left-box-text">Educação, Saúde, Defesa da vida e da Família</span> --}}
         </figure>
     </div>
 

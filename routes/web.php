@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('web.pages.home');
 })->name('home');
 
-Route::get('biografia', function () {
-    return view('web.pages.biografia');
-})->name('biografia');
+Route::get('visao', function () {
+    return view('web.pages.visao');
+})->name('visao');
+
+Route::get('contato', function () {
+    return view('web.pages.contato');
+})->name('contato');

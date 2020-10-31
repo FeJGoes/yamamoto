@@ -7,6 +7,9 @@
 
         @yield('content')
 
+        {{-- MODAIS DOS ARTIGOS --}}
+        @include('web.components.modais-artigos')
+
         @include('web.includes.footer')
         @stack('scripts')
     </body>

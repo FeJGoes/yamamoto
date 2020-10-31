@@ -1,0 +1,137 @@
+@use './variables' as var;
+
+/** globais */
+$containerBackgoundColor: rgba($color: #000000, $alpha: 0);
+$transparent: rgba($color: #000000, $alpha: 0);
+
+/** item */
+$itemBackgoundColor: var.$cW;
+$itemBackgoundColorHover: var.$c1;
+$itemBorderColor: var.$c5;
+
+$textColor: var.$tc3;
+$textColorHover: var.$cW;
+
+/** botão do card */
+$bpTextColorHover: var.$c3;
+
+/** links dos icones do card */
+$urlIcon1: '/icons/network-black.svg';
+$urlIcon1Hover: '/icons/network-white.svg';
+$urlIcon2: '/icons/compass-black.svg';
+$urlIcon2Hover: '/icons/compass-white.svg';
+$urlIcon3: '/icons/paper-plane-1-black.svg';
+$urlIcon3Hover: '/icons/paper-plane-1-white.svg';
+
+#ty-box-area {
+    background: $containerBackgoundColor;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /** medium - breakpoint */
+    @media screen and (max-width: 950px) {
+        flex-direction: column;
+    }
+}
+
+.ty-box-icon {
+    margin: 10px auto 5px;
+
+}
+
+.ty-box-title {
+    margin: 10px auto 5px;
+    color: $textColor;
+}
+
+.ty-box-text {
+    margin: 10px 10px 5px;
+    color: $textColor;
+
+    /** medium - breakpoint */
+    @media screen and (max-width: 950px) {
+        margin: 10px 50px;
+    }
+
+    /** small - breakpoint */
+    @media screen and (max-width: 650px) {
+        margin: 10px 10px 5px;
+    }
+}
+
+.ty-bp {
+    border-radius: 2px;
+    width: 95px;
+    margin: 2.5px auto;
+
+     &:hover {
+        color: $bpTextColorHover !important;
+    }
+}
+
+.ty-box-item {
+    background-color: $itemBackgoundColor;
+    width: 300px;
+    min-width: 290px;
+    min-height: 300px;
+    margin: 10px 15px;
+    box-shadow: 0 4px 10px -5px $itemBorderColor;
+    text-align: center;
+    transition: 0.8s;
+
+    .ty-box-text {
+        height: 130px;
+    }
+
+    &:hover {
+        background-color: $itemBackgoundColorHover;
+        transform: translateY(-10px);
+
+        .ty-bp {
+            background-color: $transparent !important;
+        }
+
+        .ty-box-icon,
+        .ty-box-title,
+        .ty-box-text {
+            color: $textColorHover;
+        }
+
+        .icon-1 {
+            content: url($urlIcon1Hover);
+        }
+        .icon-2 {
+            content: url($urlIcon2Hover);
+        }
+        .icon-3 {
+            content: url($urlIcon3Hover);
+        }
+    }
+
+    /** medium - breakpoint */
+    @media screen and (max-width: 950px) {
+        width: 450px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /** small - breakpoint */
+    @media screen and (max-width: 650px) {
+        width: 300px;
+        height: 250px;
+    }
+}
+
+#modal-missao {
+    .ty-text-table {
+        font-size: 0.7em;
+    }
+
+    img {
+        width: 75%;
+    }
+}

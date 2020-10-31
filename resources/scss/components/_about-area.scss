@@ -84,6 +84,10 @@ $boxTitleLineColor: linear-gradient(to left, var.$c1, var.$c2);
     width: 500px;
     min-width: 300px;
     margin: 5px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     /** medium - breakpoint */
     @media screen and (max-width: 950px) {
