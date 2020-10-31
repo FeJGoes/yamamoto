@@ -19,6 +19,8 @@ mix.copyDirectory('resources/images', 'public/images')
     .copyDirectory('resources/icons', 'public/icons')
     .copyDirectory('resources/fonts', 'public/fonts');
 
+mix.copy('resources/videos/video-header.mp4', 'public/videos/video-header.mp4')
+
 // lib Uikit
 mix.copy('node_modules/uikit/dist/css/uikit.min.css','public/css/uikit.min.css')
     .scripts([

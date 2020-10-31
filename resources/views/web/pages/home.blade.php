@@ -12,7 +12,7 @@
 </div>
 @include('web.components.about-area')
 
-<div class="ty-between-section-title">
+{{-- <div class="ty-between-section-title">
   <h6>Sobre mim</h6>
   <h3>Minha história contada por outras pessoas</h3>
 </div>
@@ -22,7 +22,7 @@
   <h6>#RespeitoPorVocê</h6>
   <h3>O que defendo</h3>
 </div>
-@include('web.components.o-que-defendo')
+@include('web.components.o-que-defendo') --}}
 
 <div id="entenda-mais" class="ty-between-section-title">
   <h6>Entenda mais</h6>
@@ -30,11 +30,11 @@
 </div>
 @include('web.components.tres-poderes')
 
-<div id="acompanhe-videos" class="ty-between-section-title">
+{{-- <div id="acompanhe-videos" class="ty-between-section-title">
   <h6>Acompanhe o canal no youtube</h6>
   <h3>Vídeos</h3>
 </div>
-@include('web.components.cards-area')
+@include('web.components.cards-area') --}}
 
 {{-- <div class="ty-between-section-title">
         <h6>Tragetória</h6>

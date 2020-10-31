@@ -13,17 +13,17 @@
           <small>Biografia</small>
         </a>
       </li>
-      <li class="ty-nav-item">
+      {{-- <li class="ty-nav-item">
         <a href="{{route('home')}}#o-que-defendo">
           <small>O que defendo</small>
         </a>
-      </li>
+      </li> --}}
       <li class="ty-nav-item">
         <a href="{{route('home')}}#entenda-mais">
           <small>Entenda mais</small>
         </a>
       </li>
-      <li class="ty-nav-item">
+      {{-- <li class="ty-nav-item">
         <a href="{{route('home')}}">
           <small>Atividade Parlamentar</small>
         </a>
@@ -42,7 +42,7 @@
         <a href="{{route('contato')}}">
           <small>Contato</small>
         </a>
-      </li>
+      </li> --}}
     </ul>
 
     <div id="ty-social-media" class="uk-margin-large-top">
