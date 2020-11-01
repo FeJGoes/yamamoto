@@ -3,7 +3,7 @@
     <h4>Entenda mais </h4>
     <h2>
       Os 3 poderes
-      <a href="#modal-valores" uk-tooltip="title: Clique para ver o artigo" uk-icon="info" uk-toggle></a>
+      <a href="#modal-article-tres-poderes" uk-tooltip="title: Clique para ver o artigo" uk-icon="info" uk-toggle></a>
     </h2>
     <ul uk-accordion>
 

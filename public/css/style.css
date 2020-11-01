@@ -63,7 +63,7 @@ html {
 }
 
 .ty-between-section-title :nth-child(n) {
-  margin: 0;
+  margin: 0 10px;
 }
 
 .ty-between-section-title :nth-child(2)::before {

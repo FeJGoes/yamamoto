@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    @include('web.includes.head')
+@include('web.includes.head')
 
-    <body>
-        @include('web.includes.header')
+<body>
+  @include('web.includes.header')
 
-        @yield('content')
+  @yield('content')
 
-        {{-- MODAIS DOS ARTIGOS --}}
-        @include('web.components.modais-artigos')
+  {{-- MODAIS DOS ARTIGOS --}}
+  @include('web.components.modais-artigos')
 
-        @include('web.includes.footer')
-        @stack('scripts')
-    </body>
+  @include('web.includes.footer')
+  @stack('scripts')
+</body>
+
 </html>
-
