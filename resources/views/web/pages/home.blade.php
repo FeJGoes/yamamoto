@@ -18,11 +18,11 @@
 </div>
 @include('web.components.minha-historia-por-outros')
 
-<div id="o-que-defendo" class="ty-between-section-title">
+{{-- <div id="o-que-defendo" class="ty-between-section-title">
   <h6>#RespeitoPorVocê</h6>
   <h3>O que defendo</h3>
 </div>
-@include('web.components.o-que-defendo')
+@include('web.components.o-que-defendo') --}}
 
 <div id="entenda-mais" class="ty-between-section-title">
   <h6>Entenda mais</h6>

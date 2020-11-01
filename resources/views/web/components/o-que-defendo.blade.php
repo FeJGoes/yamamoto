@@ -13,7 +13,7 @@
     <h3 class="ty-box-title">Visão</h3>
     <p class="ty-box-text">Transpor as críticas de quaisquer espécie por meio da busca continuada de soluções que
       respondam as reivindicações da população, a qual represento como legislador.</p>
-    <a href="{{route('visao')}}" class="uk-button uk-button-small uk-margin-small-top ty-bp ty-tcw ty-bg-primary">ver
+    <a href="#modal-visao" class="uk-button uk-button-small uk-margin-small-top ty-bp ty-tcw ty-bg-primary" uk-toggle>ver
       mais</a>
   </div>
 
@@ -96,14 +96,35 @@
 </div>
 
 {{-- MODAL VISÃO --}}
-<div id="modal-visao" uk-modal>
+<div id="modal-visao" class="uk-modal-full" uk-modal>
   <div class="uk-modal-dialog uk-modal-body">
-    <button class="uk-modal-close-default" type="button" uk-close></button>
-    <h2 class="uk-modal-title">Nossa força está na união</h2>
-    <img src="{{asset('images/valores-img.png')}}" alt="">
-    <p>A marca da "nossa" legislatura é a união de pessoas que prezam por esses mesmos valores, por isso, preoucupadas
-      em promover o bem comum buscam a fraternidade para identificar problemas e buscar soluções para construir uma Rio
-      Claro melhor.</p>
+      <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+      <div class="uk-width-3-4@s uk-margin-auto">
+        <div class="ty-between-section-title">
+          <h6>Olhar atento</h6>
+          <h3>Fazemos parte da solução</h3>
+        </div>
+        <section>
+            <figure>
+              <img src="{{asset('images/emenda-saude.png')}}" alt="thiago_yamamoto">
+              <span class="ty-left-box-text">+500 MIL</span>
+            </figure>
+            <h4>Emendas para Saúde</h4>
+
+            <p>Neste mandato dediquei especial atenção à saúde de Rio Claro, sempre fiscalizando todos os equipamentos da saúde
+              municipal. Neste incansável e contínuo trabalho conheci e identifiquei vários problemas como o de infraestrutura
+              das UPA’s e a falta de equipamentos.</p>
+
+            <p>Por isso, trabalhei e viabilizei três emendas:</p>
+
+            <ol>
+              <li><b>80 mil</b> com a Deputada Keiko Ota, a qual foi utilizada para melhorias na <b>UBS do Wenzel</b>;</li>
+              <li><b>200 mil</b> com o Deputado Reinaldo Alguz aplicada no Centro de Habilitação Infantil <b>Princesa
+                  Victória</b>;</li>
+              <li><b>250 mil</b> com o Deputado Enrico Misasi utilizada na reforma da <b>UPA do Cervezão</b>.</li>
+            </ol>
+        </section>
+      </div>
   </div>
 </div>
 
