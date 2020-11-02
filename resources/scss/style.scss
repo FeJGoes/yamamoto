@@ -73,10 +73,14 @@ html {
     }
 }
 
+.ty-margin-x {
+    margin: 2.5px 10px;
+}
+
 @import 'header','footer','biografia';
 
 @import 'components/o-que-defendo',
-        'components/about-area',
+        'components/minha-historia',
         'components/tres-poderes',
         'components/timeline-area',
         'components/cards-area';
