@@ -61,6 +61,6 @@
   </div>
 
   <figure class="ty-img-faq">
-    <img src="{{asset('images/IMG_1273.webp')}}" alt="thiago_yamamoto">
+    <img src="{{asset('images/IMG_12733.jpeg')}}" alt="thiago_yamamoto">
   </figure>
 </section>
