@@ -12,7 +12,7 @@
 <section id="ty-about-container">
   <div class="ty-about-box-left">
     <figure>
-      <img src="{{asset('images/emenda-saude.png')}}" alt="thiago_yamamoto">
+      <img src="{{asset('images/emenda-saude.webp')}}" alt="thiago_yamamoto">
       <span class="ty-left-box-text">+500 MIL</span>
     </figure>
   </div>

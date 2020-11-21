@@ -1,6 +1,6 @@
 <header id="ty-header" uk-sticky="show-on-up: true">
   <a id="ty-logo" href="{{route('home')}}">
-    <img src="{{asset('images/logo.webp')}}" alt="logo">
+    <img src="{{asset('images/logo.png')}}" alt="logo">
   </a>
 
   <nav id="ty-navbar" class="uk-visible@m">

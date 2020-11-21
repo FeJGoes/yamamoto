@@ -45,29 +45,29 @@
           forte geradora de emprego e renda. Veja alguns exemplos abaixo:</p>
         <ul class="uk-list uk-flex uk-flex-wrap uk-flex-around">
           <li class="uk-flex uk-flex-between">
-            <img class="uk-margin-small" src="{{asset('images/batimento-cardiaco.png')}}" alt="">
+            <img class="uk-margin-small" src="{{asset('images/batimento-cardiaco.webp')}}" alt="">
             <strong class="ty-modal-missao-text">ENTIDADES DE SAÚDE</strong>
           </li>
           <li class="uk-flex uk-flex-between">
-            <img class="uk-margin-small" src="{{asset('images/velho.png')}}" alt="">
+            <img class="uk-margin-small" src="{{asset('images/velho.webp')}}" alt="">
             <strong class="ty-modal-missao-text">ABRIGO DE IDOSOS</strong>
           </li>
           <li class="uk-flex uk-flex-between">
-            <img class="uk-margin-small" src="{{asset('images/hospital.png')}}" alt="">
+            <img class="uk-margin-small" src="{{asset('images/hospital.webp')}}" alt="">
             <strong class="ty-modal-missao-text">CLÍNICAS DE RECUPERAÇÃO</strong>
           </li>
         </ul>
         <ul class="uk-list uk-flex uk-flex-wrap uk-flex-around">
           <li class="uk-flex uk-flex-between">
-            <img class="uk-margin-small" src="{{asset('images/livros.png')}}" alt="">
+            <img class="uk-margin-small" src="{{asset('images/livros.webp')}}" alt="">
             <strong class="ty-modal-missao-text">INSTITUIÇÃO EDUCACIONAL</strong>
           </li>
           <li class="uk-flex uk-flex-between">
-            <img class="uk-margin-small" src="{{asset('images/jogador-de-futebol.png')}}" alt="">
+            <img class="uk-margin-small" src="{{asset('images/jogador-de-futebol.webp')}}" alt="">
             <strong class="ty-modal-missao-text">PROJETOS DE ESPORTE</strong>
           </li>
           <li class="uk-flex uk-flex-between">
-            <img class="uk-margin-small" src="{{asset('images/familia.png')}}" alt="">
+            <img class="uk-margin-small" src="{{asset('images/familia.webp')}}" alt="">
             <strong class="ty-modal-missao-text">ABRIGO DE CRIANÇAS</strong>
           </li>
         </ul>
@@ -82,7 +82,7 @@
         <table id="segunda-frente">
           <tr>
             <td class="uk-flex uk-flex-center uk-flex-middle">
-              <img width="50" src="{{asset('images/familia2.png')}}" alt="familia_icon">
+              <img width="50" src="{{asset('images/familia2.webp')}}" alt="familia_icon">
             </td>
             <td>
               <h4><b>Família</b></h4>
@@ -92,7 +92,7 @@
           </tr>
           <tr>
             <td class="uk-flex uk-flex-center uk-flex-middle">
-              <img width="50" src="{{asset('images/feto.png')}}" alt="vida_icon">
+              <img width="50" src="{{asset('images/feto.webp')}}" alt="vida_icon">
             </td>
             <td>
               <h4><b>Vida</b></h4>
@@ -119,7 +119,7 @@
 
       <section class="uk-flex uk-flex-wrap uk-flex-around">
         <figure class="uk-width-1-1 uk-width-1-2@m uk-flex uk-flex-center uk-flex-middle">
-          <img src="{{asset('images/emenda-saude.png')}}" alt="thiago_yamamoto">
+          <img src="{{asset('images/emenda-saude.webp')}}" alt="thiago_yamamoto">
         </figure>
 
         <div class="uk-width-1-1 uk-width-1-2@m">
@@ -156,19 +156,19 @@
 
         <ul class="uk-list uk-flex uk-flex-wrap uk-flex-around">
           <li class="uk-flex uk-flex-column uk-flex-middle uk-text-center ty-oportunidades-li">
-            <img width="80" src="{{asset('images/agenda.png')}}" alt="">
+            <img width="80" src="{{asset('images/agenda.webp')}}" alt="">
             <small class="uk-margin">Marcar e desmarcar consultas</small>
           </li>
           <li class="uk-flex uk-flex-column uk-flex-middle uk-text-center ty-oportunidades-li">
-            <img width="80" src="{{asset('images/prescription.png')}}" alt="">
+            <img width="80" src="{{asset('images/prescription.webp')}}" alt="">
             <small class="uk-margin">Cópia de receita digitalizada</small>
           </li>
           <li class="uk-flex uk-flex-column uk-flex-middle uk-text-center ty-oportunidades-li">
-            <img width="80" src="{{asset('images/capsules.png')}}" alt="">
+            <img width="80" src="{{asset('images/capsules.webp')}}" alt="">
             <small class="uk-margin">Verificar a disponibilidades de medicamentos</small>
           </li>
           <li class="uk-flex uk-flex-column uk-flex-middle uk-text-center ty-oportunidades-li">
-            <img width="80" src="{{asset('images/medical-report.png')}}" alt="">
+            <img width="80" src="{{asset('images/medical-report.webp')}}" alt="">
             <small class="uk-margin">Obter resultados de exames</small>
           </li>
         </ul>
@@ -189,7 +189,7 @@
         </div>
 
         <figure class="uk-width-1-1 uk-width-1-3@m uk-flex uk-flex-center uk-flex-middle uk-margin-large">
-          <img src="{{asset('images/infraestrutura.png')}}" alt="infraestrutura">
+          <img src="{{asset('images/infraestrutura.webp')}}" alt="infraestrutura">
         </figure>
       </section>
 
@@ -200,7 +200,7 @@
 
       <section class="uk-flex uk-flex-wrap uk-flex-around">
         <figure class="uk-width-1-1 uk-width-1-3@m uk-flex uk-flex-center uk-flex-middle uk-margin-large">
-          <img src="{{asset('images/camacua.png')}}" alt="camacua">
+          <img src="{{asset('images/camacua.webp')}}" alt="camacua">
         </figure>
 
         <div class="uk-width-1-1 uk-width-1-2@m">
@@ -220,7 +220,7 @@
         </div>
 
         <figure class="uk-width-1-1 uk-width-1-3@m uk-flex uk-flex-center uk-flex-middle uk-margin-large">
-          <img src="{{asset('images/maria-peregrina1.png')}}" alt="maria-peregrina1">
+          <img src="{{asset('images/maria-peregrina1.webp')}}" alt="maria-peregrina1">
         </figure>
       </section>
 
@@ -228,7 +228,7 @@
 
       <section class="uk-flex uk-flex-wrap uk-flex-around">
         <figure class="uk-width-1-1 uk-width-1-3@m uk-flex uk-flex-center uk-flex-middle">
-          <img src="{{asset('images/educacao-familiar.png')}}" alt="educacao-familiar">
+          <img src="{{asset('images/educacao-familiar.webp')}}" alt="educacao-familiar">
         </figure>
 
         <div class="uk-width-1-1 uk-width-1-2@m ty-margin-x">
@@ -250,7 +250,7 @@
   <div class="uk-modal-dialog uk-modal-body">
     <button class="uk-modal-close-default" type="button" uk-close></button>
     <h2 class="uk-modal-title">Nossa força está na união</h2>
-    <img src="{{asset('images/valores-img.png')}}" alt="">
+    <img src="{{asset('images/valores-img.webp')}}" alt="">
     <p>A marca da "nossa" legislatura é a união de pessoas que prezam por esses mesmos valores, por isso, preoucupadas
       em promover o bem comum buscam a fraternidade para identificar problemas e buscar soluções para construir uma Rio
       Claro melhor.</p>
